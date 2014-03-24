@@ -1,0 +1,9 @@
+# Translation by Xanthin
+
+Cooked pork = Gegartes Schweinefleisch
+Cooked ostrich = Gegartes Straussenfleisch
+Cooked beef = Gegartes Rindfleisch
+Cooked chicken = Gegartes Huehnerfleisch
+Cooked lamb = Gegartes Lammfleisch
+Cooked venison = Gegartes Hirschfleisch
+Cooked Fish = Gegartes Fischfleisch
