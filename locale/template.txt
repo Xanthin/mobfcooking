@@ -1,0 +1,9 @@
+# Template
+
+Cooked pork = 
+Cooked ostrich = 
+Cooked beef = 
+Cooked chicken = 
+Cooked lamb = 
+Cooked venison = 
+Cooked Fish = 
