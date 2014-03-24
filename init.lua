@@ -1,45 +1,53 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if intllib then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 --Item Register
 
 minetest.register_craftitem("mobfcooking:cooked_pork", {
-	description = "Cooked pork",
+	description = S("Cooked pork"),
 	inventory_image = "kpork.png",
 	on_use = minetest.item_eat(8),
 })
 
 minetest.register_craftitem("mobfcooking:cooked_ostrich", {
-	description = "Cooked ostrich",
+	description = S("Cooked ostrich"),
 	inventory_image = "kostrich.png",
 	on_use = minetest.item_eat(8),
 })
 
 
 minetest.register_craftitem("mobfcooking:cooked_beef", {
-	description = "Cooked beef",
+	description = S("Cooked beef"),
 	inventory_image = "kbeef.png",
 	on_use = minetest.item_eat(9),
 })
 
 minetest.register_craftitem("mobfcooking:cooked_chicken", {
-	description = "Cooked chicken",
+	description = S("Cooked chicken"),
 	inventory_image = "kchicken.png",
 	on_use = minetest.item_eat(7),
 })
 
 minetest.register_craftitem("mobfcooking:cooked_lamb", {
-	description = "Cooked lamb",
+	description = S("Cooked lamb"),
 	inventory_image = "klamb.png",
 	on_use = minetest.item_eat(6),
 })
 
 minetest.register_craftitem("mobfcooking:cooked_venison", {
-	description = "Cooked venison",
+	description = S("Cooked venison"),
 	inventory_image = "kvenison.png",
 	on_use = minetest.item_eat(7),
 
 })
 
 minetest.register_craftitem("mobfcooking:cooked_fish", {
-	description = "Cooked Fish",
+	description = S("Cooked Fish"),
 	inventory_image = "kfish.png",
 	on_use = minetest.item_eat(5),
 })
